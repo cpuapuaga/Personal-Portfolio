@@ -1,0 +1,13 @@
+body{
+    font-family: 'Palatino', 'Palatino Linotype', 'Book Antiqua', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #660000;
+}
+
+header{
+    background-color: #660000;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
