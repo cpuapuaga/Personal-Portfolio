@@ -14,6 +14,14 @@ h2{
     font-size: 64px;
 }
 
+p{
+    font-size: 20px;
+}
+
+li{
+    font-size: 20px;
+}
+
 .sidebar{
     height: 100%;
     width: 10%;
@@ -35,5 +43,23 @@ h2{
     padding-top: 50px;
 }
 
+#about-section{
+    position: relative;
+}
+
+#skills-section{
+    padding-top: 300px;
+    position: relative;
+}
+
+#experience-section{
+    padding-top: 300px;
+    position: relative;
+}
+
+#contact-section{
+    padding-top: 300px;
+    position: relative;
+}
 
 
