@@ -5,6 +5,11 @@ body{
     color: white;
 }
 
+section{
+    position: relative;
+    height: 100vh;
+}
+
 h1{
     font-size: 96px;
     line-height: 165%;
@@ -20,6 +25,21 @@ p{
 
 li{
     font-size: 20px;
+}
+
+#bio-img{
+    display: block;
+    object-fit: cover;
+    width: 30vw;
+    border-radius: 25px;
+    position: relative;
+    left: 10vw;
+}
+
+#bio-txt{
+    width: 20vw;
+    line-height: 165%;
+    margin-left: 15vw;
 }
 
 .sidebar{
@@ -45,11 +65,21 @@ li{
 
 #about-section{
     position: relative;
+
+}
+
+.about-content{
+    display: flex;
+}
+
+.skills-content{
+    display: flex;
 }
 
 #skills-section{
     padding-top: 300px;
     position: relative;
+    top: 30vh;
 }
 
 #experience-section{
